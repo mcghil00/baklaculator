@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>Quiz App</title>
+	<!-- Path to Framework7 Library CSS-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Pangasinan Ghoul</title>
+<link rel="stylesheet" href="./framework7.ios.min.css">
+<link rel="stylesheet" href="./framework7.ios.colors.min.css">
+<link rel="stylesheet" href="./css/my-app.css">
+<link rel="stylesheet" href="./js/question.js">
+<link rel="stylesheet" href="./js/quiz-script.js">
+
+
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+	<div id="quizContainer" class="container"><br/><br/>
+		<div class="title" style="background:pink;text-align:center;padding:20px;font-weight:900;">BAKLACULATOR</div><br/>
+		<div id="question" class="question" style="background:blue;text-align:center;padding:20px;color:#fff;font-size:20px;"></div><br/>
+		<h2 id="test_status"></h2><br><center>
+		<label class="option" style="background:skyblue;text-align:center;padding:20px;color:#000;font-size:20px;"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+		<label class="option" style="background:skyblue;text-align:center;padding:20px;color:#000;font-size:20px;"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label><br><br><br><br><br><br>
+		<button id="nextButton" style="background:red;text-align:center;padding:20px;color:#fff;font-size:20px;" class="next-btn" onclick="loadNextQuestion();">Submit Answer</button>
+		</center>
+	
+	</div>
+	<div id="result" class="container result" style="display:none;">
+	</div>
+	<script src="js/question.js"></script>
+	<script src="js/quiz-script.js"></script>
+	
+	
+
+</body>
+<script type="text/javascript" src="./framework7.min.js.download"></script>
+
+</html>
